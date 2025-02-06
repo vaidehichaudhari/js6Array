@@ -60,6 +60,12 @@ function rotateRight(arr,k){
 }
 console.log(rotateRight([1,2,3,4,5],2));
 
+function removeDuplicates(arr){
+    return[...new Set(arr)];
+}
+console.log(removeDuplicates([1,2,2,3,3,4]))
+
+
 function multiplicationTable(){
     let table=[];
     for(let i=1; i<=10;i++){
